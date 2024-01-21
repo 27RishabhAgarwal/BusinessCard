@@ -763,12 +763,11 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 60px;
     height: 60px;
     left: 0;
-    margin-left: 15;
-    padding: 10px;
+    margin-left: 15px;
 }
 
 .floater-left-btn i{

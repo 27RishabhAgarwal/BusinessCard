@@ -58,7 +58,7 @@ const CardPay = () => {
                         <img src="./assets/upi_logo.png" alt="" />
                         <div>
                             <h3>UPI Pay</h3>
-                            <p>Click to get details</p>
+                            <p>Click to get QR</p>
                         </div>
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -77,7 +77,7 @@ const CardPay = () => {
                         <img src="./assets/hp_pay_logo.png" alt="" />
                         <div>
                             <h3>HP Pay</h3>
-                            <p>Click to get details</p>
+                            <p>Click to get QR</p>
                         </div>
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
@@ -105,24 +105,24 @@ const CardPay = () => {
                             <table>
                             <thead>
                                 <tr>
-                                    <th colspan="3">AXIS Bank</th>
+                                    <th colspan="3">Bank of Baroda</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <th>Account No.</th>
                                     <td>:</td>
-                                    <td>2611108060012</td>
+                                    <td>10540200007374</td>
                                 </tr>
                                 <tr>
                                     <th>IFSC Code</th>
                                     <td>:</td>
-                                    <td>UTIB0000261</td>
+                                    <td>BARB0BALAMA</td>
                                 </tr>
                                 <tr>
                                     <th>Account Holder</th>
                                     <td>:</td>
-                                    <td>Rishabh Agarwal</td>
+                                    <td>KEDARNATH FILLING STATION</td>
                                 </tr>
                             </tbody>
                             </table>
