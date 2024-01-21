@@ -1,8 +1,13 @@
 
-function copyToClipBoard(){
-    navigator.clipboard.writeText("https://27rishabhagarwal.github.io/BusinessCard/")
-    alert("Copied to clipboard!")
-   }
+// function copyToClipBoard(){
+//     navigator.clipboard.writeText("https://27rishabhagarwal.github.io/BusinessCard/")
+//     alert("Copied to clipboard!")
+//    }
+const copyToClipBoard = () => {
+    navigator.share({
+        url: 'https://27rishabhagarwal.github.io/BusinessCard/'
+    })
+}
 
 const CardFloaters = () => {
  return (
