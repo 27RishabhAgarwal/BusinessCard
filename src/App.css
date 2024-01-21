@@ -767,7 +767,19 @@ p{
     width: 60px;
     height: 60px;
     left: 0;
-    margin-left: 15px;
+    margin-left: 15
+}
+
+.floater-left-btn i{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff75;
+    color: var(--primary-color);
+    font-size: 24px;
 }
 
 .floater-right-btn{
@@ -788,7 +800,7 @@ p{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ffffff75;
     color: var(--primary-color);
     font-size: 24px;
 }
@@ -798,4 +810,5 @@ p{
     text-align: center;
     font-size: 14px;
     line-height: 16px;
+    color: #ffffff75;
 }
