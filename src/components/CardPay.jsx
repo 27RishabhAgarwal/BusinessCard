@@ -64,7 +64,7 @@ const CardPay = () => {
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
-                            <img src="./assets/qr-code.jpg" alt="" />
+                            <img src="./assets/upi_QR.jpg" alt="" />
                             <div className="card-utility-button">
                                 <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
                             </div>
@@ -83,7 +83,7 @@ const CardPay = () => {
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
-                            <img src="./assets/qr-code.jpg" alt="" />
+                            <img src="./assets/qrcode.png" alt="" />
                             <div className="card-utility-button">
                                 <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
                             </div>
@@ -110,9 +110,14 @@ const CardPay = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th>Account No.</th>
+                                    <th>Branch</th>
                                     <td>:</td>
-                                    <td>10540200007374</td>
+                                    <td>Balamau</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Type</th>
+                                    <td>:</td>
+                                    <td>Current Account</td>
                                 </tr>
                                 <tr>
                                     <th>IFSC Code</th>
