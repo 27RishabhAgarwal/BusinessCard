@@ -68,9 +68,9 @@ const CardPay = () => {
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
-                            <img src="./assets/upi_QR.jpg" alt="" />
+                            <img src="./assets/upi_QR.png" alt="" />
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
+                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button><br></br>
                                 <button className="btn btn-primary" onClick={() => openInNewTab('upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm')}>Pay</button>
                             </div>
                         </div>

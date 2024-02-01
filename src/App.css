@@ -1,6 +1,6 @@
 :root{
     /* color scheme */
-  --primary-color: #2c1c1c;
+  --primary-color: #FFD700;
   --secondary-color: #333333;
   --backdrop-color: #ffffff50;
 }
@@ -35,7 +35,7 @@ h3{
 
 p{
     font-size: 16px;
-    color: #001f3f;
+    color: #ffffff;
 }
 
 .contact-card{
