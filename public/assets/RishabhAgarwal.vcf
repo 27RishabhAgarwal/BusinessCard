@@ -11,8 +11,6 @@ item2.EMAIL;type=Email:knfs.hp@gmail.com
 item2.X-ABLabel;CHARSET=UTF-8:Email
 item3.ADR;CHARSET=UTF-8:;Hardoi Road, Kachhauna;Distt-Hardoi, 241126;;Uttar Pradesh;;
 item3.X-ABLabel;CHARSET=UTF-8:Address
-item5.URL:Nothing
-item5.X-ABLabel;CHARSET=UTF-8:Qr code
 item6.URL;type=facebook:https://m.facebook.com/profile.php/?id=100021529052398
 item6.X-ABLabel;CHARSET=UTF-8:Facebook
 item7.URL;type=instagram:http://www.instagram.com/rishabh275_

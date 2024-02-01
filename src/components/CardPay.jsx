@@ -86,6 +86,7 @@ const CardPay = () => {
                             <img src="./assets/qrcode.png" alt="" />
                             <div className="card-utility-button">
                                 <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
+                                <button className="btn btn-primary"><a href="upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm">Pay</a></button>
                             </div>
                         </div>
                     </div>
