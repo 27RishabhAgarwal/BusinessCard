@@ -5,13 +5,13 @@ import Loader from './components/PageLoader';
 import VideoBackground from './components/Background';
 import CardContact from './components/CardContact';
 import CardAboutMe from './components/CardAboutMe';
-import CardSocials from './components/CardSocials';
+// import CardSocials from './components/CardSocials';
 import CardPay from './components/CardPay';
 import CardButtons from './components/CardButtons';
-import CardVideo from './components/CardVideo';
+// import CardVideo from './components/CardVideo';
 import CardFloaters from './components/CardFloaters';
 import CardProducts from './components/CardProducts';
-import CardServices from './components/CardServices';
+// import CardServices from './components/CardServices';
 
 function App() {
   return (
@@ -21,12 +21,9 @@ function App() {
         <CardHeader />
         <CardContact />
         <CardAboutMe />
-        <CardSocials />
         <CardPay />
         <CardProducts />
         <CardButtons />
-        <CardVideo />
-        <CardServices />
       </ContactCard>
       <CardFloaters />
       <VideoBackground />

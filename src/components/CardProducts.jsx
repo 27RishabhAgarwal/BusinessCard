@@ -7,12 +7,20 @@ const CardProducts = () => {
         </div>
         <div className="card-products-box-items">
             <div className="card-products-box-item">
-                <p>Lorem Ipsum</p>
-                <p>15/-</p>
+                <p>Petrol</p>
+                <p>97.17/-</p>
             </div>
             <div className="card-products-box-item">
-                <p>Dolor Sit Amet</p>
-                <p>1000/-</p>
+                <p>E20</p>
+                <p>97.17/-</p>
+            </div>
+            <div className="card-products-box-item">
+                <p>Diesel</p>
+                <p>90.35/-</p>
+            </div>
+            <div className="card-products-box-item">
+                <p>CNG</p>
+                <p>96.50/-</p>
             </div>
         </div>
     </div>

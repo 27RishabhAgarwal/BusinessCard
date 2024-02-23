@@ -3,23 +3,20 @@ const CardContact = () => {
       <div className="card-contact-us">
         <div className="card-contact-title">
             <i class="fa-solid fa-mobile-screen"></i>
-            <h2>Contact Us</h2>
+            <h2>Contact Details</h2>
         </div>
         <div className="contact-details-item">
-            <h3>Call Us</h3>
-            <p>+919336117544</p>
+            <h3>Mobile No.</h3>
+            <a href={`tel:+919336117544`} target="_blank" rel="noreferrer"><p>+919336117544</p></a>
         </div>
         <div className="contact-details-item">
-            <h3>Mail Us</h3>
-            <p>knfs.hp@gmail.com</p>
+            <h3>Emain ID</h3>
+            <a href="mailto:knmill1991@gmail.com" target="_blank" rel="noreferrer"><p>knfs.hp@gmail.com</p></a>
         </div>
         <div className="contact-details-item">
             <h3>Address</h3>
-            <p>Hardoi Road, Kachhauna<br />Distt-Hardoi, 241126<br />Uttar Pradesh</p>
+            <a href="https://maps.app.goo.gl/PRPKWxGcfzfrEqHTA"><p>Hardoi Road, Kachhauna<br />Distt-Hardoi, 241126<br />Uttar Pradesh</p></a>
 
-            <a className="button" href="https://maps.app.goo.gl/PRPKWxGcfzfrEqHTA" target="_blank" rel="noreferrer">
-                <i class="fa-solid fa-location-arrow"></i> Directions
-            </a>
         </div>
       </div>
     );

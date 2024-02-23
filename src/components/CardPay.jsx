@@ -114,15 +114,20 @@ const CardPay = () => {
                                 </tr>
                             </thead>
                             <tbody>
+                            <tr>
+                                    <th>Account Holder</th>
+                                    <td>:</td>
+                                    <td>KEDARNATH FILLING STATION</td>
+                                </tr>
                                 <tr>
                                     <th>Branch</th>
                                     <td>:</td>
                                     <td>Balamau</td>
                                 </tr>
                                 <tr>
-                                    <th>Account Type</th>
+                                    <th>Account No.</th>
                                     <td>:</td>
-                                    <td>Current Account</td>
+                                    <td>10540200007374</td>
                                 </tr>
                                 <tr>
                                     <th>IFSC Code</th>
@@ -130,10 +135,11 @@ const CardPay = () => {
                                     <td>BARB0BALAMA</td>
                                 </tr>
                                 <tr>
-                                    <th>Account Holder</th>
+                                    <th>Account Type</th>
                                     <td>:</td>
-                                    <td>KEDARNATH FILLING STATION</td>
+                                    <td>Current Account</td>
                                 </tr>
+                                
                             </tbody>
                             </table>
                             <div className="card-utility-button">

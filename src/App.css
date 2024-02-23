@@ -1,8 +1,8 @@
 :root{
     /* color scheme */
   --primary-color: #2c1c1c;
-  --secondary-color: #FFD700;
-  --backdrop-color: #ffffff50;
+  --secondary-color: #1c0101;
+  --backdrop-color: #83818182;
 }
 
 #root{
