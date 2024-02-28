@@ -10,7 +10,7 @@ const CardContact = () => {
             <a href={`tel:+919336117544`} target="_blank" rel="noreferrer"><p>+919336117544</p></a>
         </div>
         <div className="contact-details-item">
-            <h3>Emain ID</h3>
+            <h3>Email ID</h3>
             <a href="mailto:knmill1991@gmail.com" target="_blank" rel="noreferrer"><p>knfs.hp@gmail.com</p></a>
         </div>
         <div className="contact-details-item">
