@@ -98,7 +98,7 @@ const CardPay = () => {
 
                 <div className="card-pay-item">
                     <div className="card-pay-item-header" onClick={toggleItemBody}>
-                        <img src="./assets/axis_logo.png" alt="" />
+                        <img src="./assets/pnb_logo.jpg" alt="" />
                         <div>
                             <h3>Bank Details</h3>
                             <p>Click to get details</p>
@@ -110,29 +110,29 @@ const CardPay = () => {
                             <table>
                             <thead>
                                 <tr>
-                                    <th colspan="3">Bank of Baroda</th>
+                                    <th colspan="3">Punjab National Bank</th>
                                 </tr>
                             </thead>
                             <tbody>
                             <tr>
                                     <th>Account Holder</th>
                                     <td>:</td>
-                                    <td>KEDARNATH FILLING STATION</td>
+                                    <td>KEDAR NATH FILLING STATION</td>
                                 </tr>
                                 <tr>
                                     <th>Account No.</th>
                                     <td>:</td>
-                                    <td>10540200007374</td>
+                                    <td>7531009300000110</td>
                                 </tr>
                                 <tr>
                                     <th>IFSC Code</th>
                                     <td>:</td>
-                                    <td>BARB0BALAMA</td>
+                                    <td>PUNB0753100</td>
                                 </tr>
                                 <tr>
                                     <th>Branch</th>
                                     <td>:</td>
-                                    <td>Balamau</td>
+                                    <td>Kachhauna Patseni </td>
                                 </tr> 
                                 <tr>
                                     <th>Account Type</th>
