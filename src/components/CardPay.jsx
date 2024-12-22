@@ -1,3 +1,8 @@
+import Icon from '@mdi/react';
+import { mdiChevronDown,
+    mdiContentCopy
+ } from '@mdi/js';
+
 const CardPay = () => {
 
     const toggleItems = (e) => {
@@ -9,13 +14,13 @@ const CardPay = () => {
     const toggleItemBody = (e) => {
         const itemBody = e.target.closest('.card-pay-item').querySelector('.card-pay-item-body');
         itemBody.classList.toggle('show');
-        e.target.closest('.card-pay-item').querySelector('.card-pay-item .fa-chevron-down').classList.toggle('rotate');
+        e.target.closest('.card-pay-item').querySelector('.card-pay-item').classList.toggle('rotate');
 
         const allItems = document.querySelectorAll('.card-pay-item-body');
         allItems.forEach(item => {
             if (item !== itemBody) {
                 item.classList.remove('show');
-                item.closest('.card-pay-item').querySelector('.card-pay-item .fa-chevron-down').classList.remove('rotate');
+                item.closest('.card-pay-item').querySelector('.card-pay-item').classList.remove('rotate');
             }
         });
     }
@@ -45,16 +50,12 @@ const CardPay = () => {
         a.click();
     }
 
-        // const openInNewTab = url => {
-        //   window.open(url, '_blank', 'noopener,noreferrer');
-        // };
-
     return (
         <div className="card-pay">
             <div className="card-pay-title" onClick={toggleItems}>
                 <h2>Pay Us</h2>
                 <p>Pay us by clicking here</p>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i><Icon path={mdiChevronDown} size={1.2} /></i>
             </div>
             <div className="card-pay-items">
                 <div className="card-pay-item">
@@ -64,7 +65,7 @@ const CardPay = () => {
                             <h3>UPI Pay</h3>
                             <p>Click to get QR</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1.2} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
@@ -84,7 +85,7 @@ const CardPay = () => {
                             <h3>HP Pay</h3>
                             <p>Click to get QR</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1.2} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="qr-details">
@@ -103,7 +104,7 @@ const CardPay = () => {
                             <h3>Bank Details</h3>
                             <p>Click to get details</p>
                         </div>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i><Icon path={mdiChevronDown} size={1} /></i>
                     </div>
                     <div className="card-pay-item-body">
                         <div className="bank-details">
@@ -143,7 +144,7 @@ const CardPay = () => {
                             </tbody>
                             </table>
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={copyToClipBoard}><i class="fa-solid fa-copy"></i>Copy</button>
+                                <button className="btn btn-primary" onClick={copyToClipBoard}><i><Icon path={mdiContentCopy} size={1.25} /></i>Copy</button>
                             </div>
                         </div>
                     </div>
