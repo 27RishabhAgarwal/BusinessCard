@@ -1,6 +1,7 @@
 import Icon from '@mdi/react';
 import { mdiChevronDown,
-    mdiContentCopy
+    mdiContentCopy,
+    mdiDownload
  } from '@mdi/js';
 
 const CardPay = () => {
@@ -71,7 +72,7 @@ const CardPay = () => {
                         <div className="qr-details">
                             <img src="./assets/upi_QR.png" alt="" />
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button><br></br>
+                                <button className="btn btn-primary" onClick={downloadQR}><i><Icon path={mdiDownload} size={1} /></i>Download</button><br></br>
                                 {/* <button className="btn btn-primary" onClick={() => openInNewTab('upi://pay?pa=paytmqr18e4crfuyr@paytm&pn=Paytm')}>Pay</button> */}
                             </div>
                         </div>
@@ -91,7 +92,7 @@ const CardPay = () => {
                         <div className="qr-details">
                             <img src="./assets/qrcode.png" alt="" />
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={downloadQR}><i class="fa-solid fa-download"></i>Download</button>
+                                <button className="btn btn-primary" onClick={downloadQR}><i><Icon path={mdiDownload} size={1} /></i>Download</button>
                             </div>
                         </div>
                     </div>
@@ -144,7 +145,7 @@ const CardPay = () => {
                             </tbody>
                             </table>
                             <div className="card-utility-button">
-                                <button className="btn btn-primary" onClick={copyToClipBoard}><i><Icon path={mdiContentCopy} size={1.25} /></i>Copy</button>
+                                <button className="btn btn-primary" onClick={copyToClipBoard}><i><Icon path={mdiContentCopy} size={1} /></i>Copy</button>
                             </div>
                         </div>
                     </div>
